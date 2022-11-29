@@ -1,0 +1,14 @@
+{
+  "name": "imagemin-study",
+  "type": "module",
+  "scripts": {
+    "watch:img": "chokidar \"img_src/**/*\" --command \"node imagemin.js\" --initial"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "imagemin": "^8.0.1",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-keep-folder": "^5.3.2",
+    "imagemin-pngquant": "^9.0.2"
+  }
+}
